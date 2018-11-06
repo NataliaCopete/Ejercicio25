@@ -10,13 +10,6 @@ using std::endl;
 
 const double pi=acos(-1);
 
-double gauss(double x, double mu, double sigma){
-
-return 1/(sqrt(2*pi)*sigma)*exp(-pow(x-mu,2)/(2*sigma*sigma));
-
-}
-
-
 int main(int argc,char* argv[]){
 
 int N=atoi(argv[1]);
