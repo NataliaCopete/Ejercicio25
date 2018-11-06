@@ -6,6 +6,8 @@ y=datos[:]
 mu=np.mean(y)
 sigma=np.std(y)
 
+
+
 gauss=1/(np.sqrt(2*np.pi)*sigma)*np.exp((-(y-mu)**2)/(2*sigma*sigma))
 
 plt.hist(y,normed=True)
